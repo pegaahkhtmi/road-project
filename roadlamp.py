@@ -1,6 +1,6 @@
 while 1>0:
     road_length=int(input("please insert the length of the road"))
-    electric_lights=road_length//3
+    electric_lights=(road_length//3)+1
     light_cost=15
     light_need=electric_lights*2
     electric_lights_cost=(2*light_cost)+100
